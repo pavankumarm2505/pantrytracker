@@ -2,6 +2,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import { Box, Button, Typography, Container, AppBar, Toolbar } from "@mui/material";
+import OutlinedCard from "./card"
 
 const HomePage = () => {
   const navigate = useNavigate();
@@ -51,6 +52,7 @@ const HomePage = () => {
           >
             Welcome to Pantry Tracker!
           </Typography>
+
           <Typography
             variant="h5"
             component="p"
@@ -62,6 +64,9 @@ const HomePage = () => {
           <Button variant="contained" color="primary" onClick={handleButtonClick}>
             Go to Inventory Tracker
           </Button>
+          <Box width="100%">
+            <OutlinedCard />
+          </Box>
         </Box>
       </Container>
     </Box>
