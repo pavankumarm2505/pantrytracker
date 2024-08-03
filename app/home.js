@@ -18,7 +18,7 @@ const HomePage = () => {
   };
   return (
     <Box>
-      <AppBar position="static">
+      <AppBar position="static" sx={{ bgcolor: '#333' }}>
         <Toolbar>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             Pantry Tracker
