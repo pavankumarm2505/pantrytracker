@@ -6,7 +6,7 @@ import { Box, Button, Modal, Stack, Typography } from '@mui/material';
 import { doc, setDoc, getDoc, collection } from 'firebase/firestore';
 import axios from 'axios';
 
-
+//open ai key used for open ai vision api
 // const apiK = process.env.API_KEY;
 require('dotenv').config();
 console.log("OpenAI API Key:", process.env.REACT_APP_OPENAI_API_KEY);
